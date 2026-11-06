@@ -27,6 +27,15 @@ langchain-pinecone = "*"
 certifi = "*"
 langchain-chroma = "*"
 python-dotenv = "*"
+langchain = ">=1,<2"
+langchain-google-genai = ">=4,<5"
+langchain-core = ">=1.6.10,<2"
+langchain-text-splitters = ">=1,<2"
+langchain-unstructured = ">=1,<2"
+langchain-ollama = ">=1,<2"
+protobuf = ">=5,<6"
+opentelemetry-api = "==1.34.1"
+tenacity = ">=8.2.3,<9.2"
 
 [dev-packages]
 ipykernel = "*"
@@ -36,4 +45,4 @@ python_version = "3.11"
 python_full_version = "3.11.0"
 
 [pipenv]
-allow_prereleases = true
+allow_prereleases = false
