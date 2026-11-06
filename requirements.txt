@@ -1,0 +1,15 @@
+streamlit
+streamlit-chat
+python-dotenv
+langchain>=1,<2
+langchain-core>=1.6.10,<2
+langchain-community
+langchain-google-genai>=4,<5
+langchain-pinecone
+langchain-tavily
+langchain-text-splitters
+langchain-ollama
+certifi
+pillow
+tenacity>=8.2.3,<9.2
+
